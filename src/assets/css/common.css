@@ -1,0 +1,17 @@
+html,body {
+	background: #ececec;
+    height: 100%;
+    margin: 0px;
+    font: -webkit-control;
+    font-size: 14px;
+}
+
+body>#right_side_wrapper{
+	float: left;
+    height: 100%;
+    width: calc(100% - 81px);
+}
+
+.text-center {
+    text-align: center;
+}

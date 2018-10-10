@@ -1,0 +1,65 @@
+#app_nav_wrapper{
+	height: 100%;
+    width: 80px;
+    background: #ffffff;
+    float: left;
+    border-right: 1px solid #dadada;
+}
+
+#app_nav_wrapper .app_logo{
+	height: 86px;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app_nav_wrapper .app_logo img{
+	height: 47px;
+    width: 47px;
+}
+
+#app_nav_wrapper .app_menus {
+	width: 100%;
+	max-height: calc(100% - 86px);
+	overflow-y: auto;
+	color: #909090;
+}
+
+#app_nav_wrapper .app_menus .menu {
+	height: 90px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#app_nav_wrapper .app_menus .menu:hover{
+	background: rgba(214, 214, 214, 0.3);
+}
+
+#app_nav_wrapper .app_menus .menu .icon {
+    font-size: 19px;
+    position: relative;
+    top: 25px;
+}
+
+#app_nav_wrapper .app_menus .menu .name {
+    position: relative;
+    top: 27px;
+}
+
+#app_nav_wrapper .app_menus .menu.active {
+    color: #0400ec;
+}
+
+#app_nav_wrapper .app_menus .menu.active:before {
+    content: "";
+    background: #0400ec;
+    width: 5px;
+    height: 50%;
+    float: left;
+    top: 23px;
+    position: relative;
+    border-bottom-right-radius: 22px;
+    border-top-right-radius: 22px;
+    box-shadow: #ccc 2px 1px 3px 2px;
+}
